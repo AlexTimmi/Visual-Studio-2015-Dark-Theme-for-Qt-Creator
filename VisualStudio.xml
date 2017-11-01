@@ -8,6 +8,7 @@
   <style name="SearchScope" foreground="#000000" background="#0f202d"/>
   <style name="Parentheses" foreground="#dcdcdc" background="#0e4583"/>
   <style name="ParenthesesMismatch" foreground="#dcdcdc" background="#0e4583" underlineColor="#ff0000" underlineStyle="WaveUnderline"/>
+  <style name="AutoComplete" foreground="#000080" background="#c0c0ff"/>
   <style name="CurrentLine" foreground="#000000" background="#dcdcdc"/>
   <style name="CurrentLineNumber" foreground="#2b91af" background="#1e1e1e" bold="true"/>
   <style name="Occurrences" foreground="#000000" background="#0e4583"/>
@@ -17,6 +18,7 @@
   <style name="String" foreground="#d69d85" background="#1e1e1e"/>
   <style name="Type" foreground="#4ec9b0" background="#1e1e1e"/>
   <style name="Local" foreground="#dcdcdc" background="#1e1e1e"/>
+  <style name="Global" foreground="#ce5c00"/>
   <style name="Field" foreground="#dcdcdc" background="#1e1e1e"/>
   <style name="Static" foreground="#b8d7a3" background="#1e1e1e"/>
   <style name="VirtualMethod" foreground="#dcdcdc" background="#1e1e1e" italic="true"/>
@@ -31,16 +33,16 @@
   <style name="Doxygen.Tag" foreground="#008000"/>
   <style name="VisualWhitespace" foreground="#dcdcdc" background="#1e1e1e"/>
   <style name="QmlLocalId" foreground="#dcdcdc" background="#1e1e1e" italic="true"/>
-  <style name="QmlExternalId" foreground="#000080" background="#1e1e1e" italic="true"/>
+  <style name="QmlExternalId" foreground="#0586ff" background="#1e1e1e" italic="true"/>
   <style name="QmlTypeId" foreground="#4ec9b0" background="#1e1e1e"/>
   <style name="QmlRootObjectProperty" foreground="#dcdcdc" background="#1e1e1e" italic="true"/>
   <style name="QmlScopeObjectProperty" foreground="#dcdcdc" background="#1e1e1e" italic="true"/>
-  <style name="QmlExternalObjectProperty" foreground="#000080" background="#1e1e1e" italic="true"/>
+  <style name="QmlExternalObjectProperty" foreground="#0586ff" background="#1e1e1e" italic="true"/>
   <style name="JsScopeVar" foreground="#dcdcdc" background="#1e1e1e" italic="true"/>
   <style name="JsImportVar" foreground="#dcdcdc" background="#1e1e1e" italic="true"/>
   <style name="JsGlobalVar" foreground="#dcdcdc" background="#1e1e1e" italic="true"/>
   <style name="QmlStateName" foreground="#dcdcdc" background="#1e1e1e" italic="true"/>
-  <style name="Binding" foreground="#800000" background="#1e1e1e"/>
+  <style name="Binding" foreground="#ff0000" background="#1e1e1e"/>
   <style name="DisabledCode" foreground="#9b9b9b" background="#1e1e1e"/>
   <style name="AddedLine" foreground="#7fff7f" background="#265e4d"/>
   <style name="RemovedLine" foreground="#ff7f7f" background="#3c0000"/>
@@ -57,4 +59,6 @@
   <style name="WarningContext" underlineColor="#95db7d" underlineStyle="WaveUnderline"/>
   <style name="Error" underlineColor="#ff0000" underlineStyle="WaveUnderline"/>
   <style name="ErrorContext" underlineColor="#ff0000" underlineStyle="WaveUnderline"/>
+  <style name="Declaration" foreground="#000000" background="#ffffff" bold="true"/>
+  <style name="OutputArgument" foreground="#000000" background="#ffffff" italic="true"/>
 </style-scheme>
